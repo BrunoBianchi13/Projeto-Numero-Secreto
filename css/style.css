@@ -1,0 +1,61 @@
+body{
+
+    background-color: #1D1D1D;
+    color: #5e35b1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+h1{
+    font-size: 100px;
+}
+
+h3{
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.mensagem{
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.box{
+    
+    border: 2px solid  #5e35b1;
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+#jogarNovamente{
+    font-size: 30px;
+    margin-top: 20px;
+    border: 2px solid  #5e35b1;
+    display: inline-block;
+    padding: 10px;
+    color: #1D1D1D;
+    background-color: #5e35b1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#jogarNovamente:hover{
+    
+    border: 2px solid  #5e35b1;
+    color: #5e35b1;
+    background-color: #1D1D1D;
+    border-radius: 5px;
+}
